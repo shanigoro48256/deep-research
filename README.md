@@ -18,14 +18,15 @@
 
 ## 🚀 セットアップ手順
 
-### 1. Docker イメージをビルド & 起動
+---
+
+### Docker イメージをビルド & 起動
 
 ```bash
 docker compose up --build
-
-> ✅ `docker-compose.yml` は NVIDIA GPU 対応構成になっています。
-
----
+```
+> ✅ `docker-compose.yml` 
+> ✅ `DockerFile` 
 
 ### Jupyter Notebook にアクセス
 
