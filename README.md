@@ -1,7 +1,6 @@
 # Deep Research
 
 ローカル環境で LangGraph + Ollama によるリサーチ型AIエージェントを構築するためのテンプレートです。  
-本プロジェクトは **CUDA 12.1 / NVIDIA A100（80GB）** に対応し、Docker Compose 上で即実行可能です。
 
 ---
 
@@ -68,6 +67,7 @@ deep-research/main_demo.ipynb
 ├── requirements.txt
 └── src/
     └── deep_research/
+        ├── __init__.py
         ├── configuration.py
         ├── graph.py
         ├── prompts.py
