@@ -1,0 +1,21 @@
+services:
+  deep_research:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: deep_research
+    runtime: nvidia
+    container_name: deep_research
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/app/deep_research
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    command: >
+      bash -c '/usr/local/bin/ollama serve & /app/.venv/bin/jupyter lab --ip="*" --port=8888 --NotebookApp.token="" --NotebookApp.password="" --no-browser --allow-root'
