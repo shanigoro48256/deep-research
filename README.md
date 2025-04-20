@@ -1,6 +1,3 @@
-## `README.md`
-
-```markdown
 # Deep Research
 
 ローカル環境で LangGraph + Ollama によるリサーチ型AIエージェントを構築するためのテンプレートです。  
@@ -25,7 +22,6 @@
 
 ```bash
 docker compose up --build
-```
 
 > ✅ `docker-compose.yml` は NVIDIA GPU 対応構成になっています。
 
