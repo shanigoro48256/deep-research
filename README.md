@@ -1,6 +1,6 @@
 # Deep Research
 
-ローカル環境で LangGraph + Ollama によるリサーチ型AIエージェントを構築するためのテンプレートです。  
+ローカル環境で LangGraph + Ollama によるリサーチ型AIエージェントを構築するためのコードです。  
 
 ---
 
