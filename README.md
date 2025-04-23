@@ -24,6 +24,7 @@
 ```bash
 docker compose up --build
 ```
+Dockerイメージのビルドに使用するファイル
 > ✅ `docker-compose.yml` 
 > ✅ `DockerFile` 
 
@@ -57,7 +58,7 @@ git clone https://github.com/shanigoro48256/deep-research.git
 deep-research/main_demo.ipynb
 ```
 
-## 📂 ディレクトリ構成（抜粋）
+## 📂 ディレクトリ構成
 
 ```
 .
